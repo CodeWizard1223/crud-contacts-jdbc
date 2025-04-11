@@ -24,7 +24,7 @@ public class HikariCPDataSource {
 
 //        config.setJdbcUrl("jdbc:mysql://localhost:3306/contacts");
 //        config.setUsername("root");
-//        config.setPassword("Sestrabc594");
+//        config.setPassword("");
         config.setJdbcUrl("jdbc:mysql://localhost:3306/" + prop.getProperty("db.name"));
         config.setUsername(prop.getProperty("db.username"));
         config.setPassword(prop.getProperty("db.password"));
